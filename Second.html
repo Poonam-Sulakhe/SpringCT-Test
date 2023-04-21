@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Record</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Add Record</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Add</a></li>
+			<li><a href="#">View</a></li>
+		</ul>
+	</nav>
+	<section>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="age">Age:</label>
+			<input type="number" id="age" name="age" required>
+			
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender" required>
+				<option value="">Select Gender</option>
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				<option value="Other">Other</option>
+			</select>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="terms">Agree to terms:</label>
+			<input type="checkbox" id="terms" name="terms" required>
+			
+			<button type="submit">Submit</button>
+		</form>
+	</section>
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+</body>
+</html>
